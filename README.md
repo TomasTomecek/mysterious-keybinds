@@ -56,6 +56,7 @@
 ## github
 
  * fetch PRs locally:
+
   ```
   fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
   ```
