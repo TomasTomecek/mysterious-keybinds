@@ -60,3 +60,9 @@
   ```
   fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
   ```
+
+
+# mc
+
+ * `+` — regex to mark entries
+
