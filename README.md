@@ -66,3 +66,8 @@
 
  * `+` — regex to mark entries
 
+
+# kerberos
+
+ * `export KRB5_TRACE=/dev/stdout` — prints debug logs to stdout
+
