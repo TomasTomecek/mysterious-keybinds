@@ -71,3 +71,7 @@
 
  * `export KRB5_TRACE=/dev/stdout` — prints debug logs to stdout
 
+
+# docker
+
+ * `docker inspect --format '{{ .NetworkSettings.IPAddress }}'` — get IP address of a container
