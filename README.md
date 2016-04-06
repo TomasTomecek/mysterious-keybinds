@@ -75,3 +75,24 @@
 # docker
 
  * `docker inspect --format '{{ .NetworkSettings.IPAddress }}'` — get IP address of a container
+
+
+# sysrq
+
+https://www.kernel.org/doc/Documentation/sysrq.txt
+
+```
+'f' - Will call the oom killer to kill a memory hog process, but do not
+      panic if nothing can be killed.
+
+'r' - Turns off keyboard raw mode and sets it to XLATE.
+
+On x86
+    - You press the key combo 'ALT-SysRq-<command key>'. Note - Some
+      keyboards may not have a key labeled 'SysRq'. The 'SysRq' key is
+      also known as the 'Print Screen' key. Also some keyboards cannot
+      handle so many keys being pressed at the same time, so you might
+      have better luck with "press Alt", "press SysRq", "release SysRq",
+      "press <command key>", release everything.
+```
+
