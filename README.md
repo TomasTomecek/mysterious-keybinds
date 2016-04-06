@@ -96,3 +96,8 @@ On x86
       "press <command key>", release everything.
 ```
 
+After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
+
+```
+ -s: scancode mode (RAW)
+```
