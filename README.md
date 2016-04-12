@@ -105,5 +105,6 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
 
 # npm
 
- * `npm v` — info about a npm module + its versions
+ * `npm v` — info about a npm module
+ * `npm v <pkg> versions` — all versions of a module
 
