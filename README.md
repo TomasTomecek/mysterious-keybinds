@@ -101,3 +101,9 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
 ```
  -s: scancode mode (RAW)
 ```
+
+
+# npm
+
+ * `npm v` — info about a npm module + its versions
+
