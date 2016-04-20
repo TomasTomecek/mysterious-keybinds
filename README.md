@@ -108,3 +108,8 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
  * `npm v` — info about a npm module
  * `npm v <pkg> versions` — all versions of a module
 
+
+# EPEL
+
+ * `rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm` — one command to install EPEL 7
+
