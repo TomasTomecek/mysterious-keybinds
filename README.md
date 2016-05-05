@@ -68,6 +68,7 @@
 # mc
 
  * `+` — regex to mark entries
+ * `ctrl+t` — mark a single entry
 
 
 # kerberos
