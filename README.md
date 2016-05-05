@@ -117,3 +117,10 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
 
  * `rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm` — one command to install EPEL 7
 
+
+# ruby
+
+ * installing extensions with native code:
+  * `gem install --verbose --debug --backtrace`
+  * open `mkmf.log`
+
