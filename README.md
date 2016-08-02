@@ -124,3 +124,9 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
   * `gem install --verbose --debug --backtrace`
   * open `mkmf.log`
 
+
+## Networking
+
+ * list routing table: `ip r[oute]`
+ * get interface which will route the traffic `ip r get <IP>`
+
