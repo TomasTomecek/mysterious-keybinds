@@ -13,6 +13,9 @@
  * `"*` — clipboard (e.g. `"*p`)
  * `C-r x` — paste registry `x` (INS mode)
  * `:e!` — reload file
+ * `:jumps` — history
+ * `:ls` — list open files
+ * `:b` — navigate to buffer
 
 
 ### fugitive
