@@ -52,6 +52,9 @@
  * `grep`
   * `-e` — boolean OR, e.g. `grep -e INFO -e DEBUG file.log`
 
+ * `xset`
+  * `-q` — test connection to X server
+
 # pentadactyl
 
  * `gi` — google docs input
