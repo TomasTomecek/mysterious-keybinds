@@ -131,8 +131,30 @@ After setting mode to XLATE, we need to set it back to RAW: `kbd_mode -s`:
   * open `mkmf.log`
 
 
-## Networking
+# Networking
 
  * list routing table: `ip r[oute]`
  * get interface which will route the traffic `ip r get <IP>`
 
+
+# dbus
+
+ * test dbus connection & list available methods:
+
+```
+$ dbus-send --system          \
+  --dest=org.freedesktop.DBus \
+  --type=method_call          \
+  --print-reply               \
+  /org/freedesktop/DBus       \
+  org.freedesktop.DBus.ListNames
+```
+
+```
+$ dbus-send --session           \
+  --dest=org.freedesktop.DBus \
+  --type=method_call          \
+  --print-reply               \
+  /org/freedesktop/DBus       \
+  org.freedesktop.DBus.ListNames
+```
