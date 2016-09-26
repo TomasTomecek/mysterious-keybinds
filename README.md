@@ -75,6 +75,7 @@
 
  * `+` — regex to mark entries
  * `ctrl+t` — mark a single entry
+ * `F9 r Shell link` — user@host — filesystem over SSH in MC
 
 
 # kerberos
