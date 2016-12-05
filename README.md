@@ -159,3 +159,11 @@ $ dbus-send --session           \
   /org/freedesktop/DBus       \
   org.freedesktop.DBus.ListNames
 ```
+
+
+# shell
+
+ * `-eq` for integers
+ * `==` for strings
+ * `[[ x || y ]]` — `x` or `y`
+
