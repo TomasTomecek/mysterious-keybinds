@@ -76,6 +76,8 @@
  * `+` — regex to mark entries
  * `ctrl+t` — mark a single entry
  * `F9 r Shell link` — user@host — filesystem over SSH in MC
+ * `alt+O` open select dir on other panel
+ * `alt+I` dupe panel
 
 
 # kerberos
