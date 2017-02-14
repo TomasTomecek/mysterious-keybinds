@@ -88,6 +88,16 @@
 # docker
 
  * `docker inspect --format '{{ .NetworkSettings.IPAddress }}'` — get IP address of a container
+ * access registry from CLI:
+   ```
+   IMAGE=library/redis
+   TAG=latest
+   TOKEN=$(curl -s "https://auth.docker.io/token?scope=repository:$IMAGE:pull&service=registry.docker.io" | jq -r .token)
+   CONFIG_DIGEST=$(curl -s -H"Accept: application/vnd.docker.distribution.manifest.v2+json" -H"Authorization: Bearer $TOKEN" "https://registry-1.docker.io/v2/$IMAGE/manifests/$TAG" | jq -r .config.digest)
+   ENTRYPOINT=$(curl -sL -H"Authorization: Bearer $TOKEN" "https://registry-1.docker.io/v2/$IMAGE/blobs/$CONFIG_DIGEST" | jq -r .container_config.Entrypoint)
+   echo $ENTRYPOINT
+   ```
+   [source](https://github.com/docker/distribution/issues/1252#issuecomment-274944254)
 
 
 # sysrq
