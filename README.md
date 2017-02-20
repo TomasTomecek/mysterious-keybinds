@@ -51,6 +51,7 @@
 
  * `grep`
   * `-e` — boolean OR, e.g. `grep -e INFO -e DEBUG file.log`
+  * OR `egrep (...|...|...)
 
  * `xset`
   * `-q` — test connection to X server
