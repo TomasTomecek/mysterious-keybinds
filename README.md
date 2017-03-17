@@ -180,3 +180,21 @@ $ dbus-send --session           \
  * `==` for strings
  * `[[ x || y ]]` — `x` or `y`
 
+
+# python
+
+ * context manager
+    ```python
+    class A():
+        def __init__(self):
+            pass
+
+        def __enter__(self):
+            return None
+
+        def __exit__(self, *args):
+            pass
+
+    with A() as a:
+        pass
+    ```
