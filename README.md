@@ -48,6 +48,7 @@
 
  * `strace`
   * `-s1024 -f` — string buffer length
+  * `strace -e trace=open,read,write` — filter syscalls
 
  * `grep`
   * `-e` — boolean OR, e.g. `grep -e INFO -e DEBUG file.log`
