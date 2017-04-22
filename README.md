@@ -73,6 +73,12 @@
   ```
 
 
+# Travis CI
+ * CLI: `docker run -ti -v $PWD:/project --rm --entrypoint=sh skandyla/travis-cli`
+   * `travis login --github-token`
+   * `travis setup releases`
+
+
 # mc
 
  * `+` — regex to mark entries
