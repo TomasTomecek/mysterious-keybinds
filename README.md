@@ -205,3 +205,7 @@ $ dbus-send --session           \
     with A() as a:
         pass
     ```
+
+# CGroups
+
+ * remove by doing `rmdir` of leafs — do not remove files!
