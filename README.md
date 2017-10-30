@@ -108,6 +108,11 @@
    [source](https://github.com/docker/distribution/issues/1252#issuecomment-274944254)
 
 
+# SELinux
+
+ * `semanage port -l` list policies for ports
+
+
 # sysrq
 
 https://www.kernel.org/doc/Documentation/sysrq.txt
