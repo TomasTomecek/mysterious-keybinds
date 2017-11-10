@@ -1,5 +1,10 @@
 # Mysterious Keybinds, Shortcuts, Commands, Options
 
+## git
+
+ * cherry-pick a selected set of commits:
+   * g cherry-pick <bottom-commit>^..<top-commit>
+
 ## vim
 
  * `C - {H, J, K, L}` — movement across splits
