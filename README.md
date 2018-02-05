@@ -5,6 +5,7 @@
  * cherry-pick a selected set of commits:
    * g cherry-pick <bottom-commit>^..<top-commit>
  * cancelling a commit: type `:cq` in vim
+ * listing refs in a remote: `git ls-remote`
 
 ## vim
 
