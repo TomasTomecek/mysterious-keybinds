@@ -198,6 +198,7 @@ $ dbus-send --session           \
  * `-eq` for integers
  * `==` for strings
  * `[[ x || y ]]` — `x` or `y`
+ * `pkill -o mosh-server` — kill oldest mosh-server process
 
 
 # python
