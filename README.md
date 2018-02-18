@@ -117,6 +117,11 @@
    [source](https://github.com/docker/distribution/issues/1252#issuecomment-274944254)
 
 
+# OpenShift
+
+ * `oc explain pod.spec.containers` show all the options
+
+
 # SELinux
 
  * `semanage port -l` list policies for ports
