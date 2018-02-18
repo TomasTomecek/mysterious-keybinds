@@ -222,3 +222,14 @@ $ dbus-send --session           \
 # CGroups
 
  * remove by doing `rmdir` of leafs — do not remove files!
+
+
+## Planning
+
+[Source](https://www.youtube.com/watch?v=kOSFxKaqOm4&index=33&list=WL&t=1s)
+
+ * Purpose (Why?)
+ * Vision (What?)
+ * Ideas (Brainstorming)
+ * Structure (Details)
+ * Next action (Timeline)
