@@ -23,6 +23,7 @@
  * `:jumps` — history
  * `:ls` — list open files
  * `:b` — navigate to buffer
+ * `:e` — if swapfile is detected, this will reopen the file and allow deletion
 
 
 ### fugitive
