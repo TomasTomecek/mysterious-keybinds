@@ -25,6 +25,7 @@
  * `:b` — navigate to buffer
  * `:e` — if swapfile is detected, this will reopen the file and allow deletion
   * https://stackoverflow.com/a/220543/909579
+ * `K` — man page for that word
 
 
 ### fugitive
