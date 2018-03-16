@@ -122,6 +122,10 @@
 
  * `oc explain pod.spec.containers` show all the options
 
+ * log in to registry
+   * `oc login "<OPENSHIFT_INSTANCE>"`
+   * `docker login -u ttomecek -p $(oc whoami -t) "<REGISTRY>"`
+
 
 # SELinux
 
