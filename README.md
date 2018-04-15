@@ -231,6 +231,11 @@ $ dbus-send --session           \
         pass
     ```
 
+ * install using pip from a git repo:
+   ```
+   $ pip3 install git+https://github.com/TomasTomecek/sen.git@1bfab11eb1ad5183fc0722fb62254adaae5bea14
+   ```
+
 # CGroups
 
  * remove by doing `rmdir` of leafs — do not remove files!
