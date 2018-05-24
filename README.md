@@ -6,6 +6,7 @@
    * g cherry-pick <bottom-commit>^..<top-commit>
  * cancelling a commit: type `:cq` in vim
  * listing refs in a remote: `git ls-remote`
+ * ignore SSL errors: `export GIT_SSL_NO_VERIFY=true`
 
 ## vim
 
