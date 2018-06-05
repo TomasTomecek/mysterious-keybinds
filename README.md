@@ -253,3 +253,22 @@ $ dbus-send --session           \
  * Ideas (Brainstorming)
  * Structure (Details)
  * Next action (Timeline)
+
+
+## Vagrant
+
+Usable Vagrantfile to use with Fedora box:
+```
+Vagrant.configure(2) do |config|
+    config.vm.provider "libvirt" do |libvirt, override|
+        libvirt.memory = 2048
+        libvirt.cpus = 2
+    end
+    config.vm.box = "fedora/28-cloud-base"
+    config.vm.provision :ansible do |ansible|
+        ansible.limit = "all"
+        ansible.playbook = "provision.yml"
+        ansible.raw_arguments = ["-e", "ansible_python_interpreter=/usr/bin/python3"]
+    end
+end
+```
