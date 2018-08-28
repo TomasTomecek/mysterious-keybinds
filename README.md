@@ -239,6 +239,9 @@ $ dbus-send --session           \
    $ pip3 install git+https://github.com/TomasTomecek/sen.git@1bfab11eb1ad5183fc0722fb62254adaae5bea14
    ```
 
+ * versioning syntax: `[N!]N(.N)*[{a|b|rc}N][.postN][.devN]`
+
+
 # CGroups
 
  * remove by doing `rmdir` of leafs — do not remove files!
