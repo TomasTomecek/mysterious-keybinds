@@ -9,6 +9,8 @@
  * ignore SSL errors: `export GIT_SSL_NO_VERIFY=true`
  * adding existing dir as a submodule:
    * `git submodule add <remote_url> <path>`
+ * initialize existing submodules:
+   * `git init` & `git update`
 
 ## vim
 
