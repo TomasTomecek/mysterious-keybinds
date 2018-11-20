@@ -72,6 +72,10 @@
  * `xset`
   * `-q` — test connection to X server
 
+ * `useradd [-u 1000] lojza`
+ * `usermod -a -G mock`
+
+
 # pentadactyl
 
  * `gi` — google docs input
