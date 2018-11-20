@@ -292,3 +292,14 @@ Vagrant.configure(2) do |config|
     end
 end
 ```
+
+
+## Ansible
+
+Sensible ansible.cfg
+```
+[defaults]
+retry_files_enabled = false
+enable_task_debugger = True
+# strategy = debug
+```
