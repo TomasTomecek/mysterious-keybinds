@@ -257,6 +257,13 @@ $ dbus-send --session           \
      assert p.read() == "content"
      assert len(tmpdir.listdir()) == 1
      ```
+ * decorator
+   ```
+   def my_decorator(func):
+       def wrapper():
+           func()
+   return wrapper
+   ```
 
 
 # CGroups
