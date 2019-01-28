@@ -266,6 +266,8 @@ $ dbus-send --session           \
            func()
    return wrapper
    ```
+ * flexmock
+   * mock a function: `flexmock(module, function=lambda x, y: data)`
 
 
 # CGroups
