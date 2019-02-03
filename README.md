@@ -312,5 +312,6 @@ Sensible ansible.cfg
 [defaults]
 retry_files_enabled = false
 enable_task_debugger = True
+stdout_callback = dense,debug,unixy,yaml,minimal
 # strategy = debug
 ```
