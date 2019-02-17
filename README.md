@@ -315,3 +315,8 @@ enable_task_debugger = True
 stdout_callback = dense,debug,unixy,yaml,minimal
 # strategy = debug
 ```
+
+Nicer output:
+```
+ANSIBLE_STDOUT_CALLBACK=debug
+```
