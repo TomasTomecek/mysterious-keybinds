@@ -269,6 +269,8 @@ $ dbus-send --session           \
  * flexmock
    * mock a function: `flexmock(module, function=lambda x, y: data)`
 
+ * python source file encoding: `# -*- coding: utf-8 -*-`
+
 
 # CGroups
 
