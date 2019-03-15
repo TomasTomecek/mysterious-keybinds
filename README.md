@@ -222,6 +222,10 @@ $ dbus-send --session           \
  * `==` for strings
  * `[[ x || y ]]` — `x` or `y`
  * `pkill -o mosh-server` — kill oldest mosh-server process
+ * Infinite while loop:
+  ```
+  $ podman run --rm -d --name cont fedora:29 bash -c 'while true; do date; sleep 1; done'
+  ```
 
 
 # python
