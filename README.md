@@ -11,6 +11,10 @@
    * `git submodule add <remote_url> <path>`
  * initialize existing submodules:
    * `git init` & `git update`
+ * push to someone's fork:
+   ```
+   $ git push REMOTE HEAD:name-of-the-branch-in-fork
+   ```
 
 ## vim
 
