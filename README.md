@@ -331,6 +331,13 @@ Nicer output:
 ANSIBLE_STDOUT_CALLBACK=debug
 ```
 
+Line in file:
+```yaml
+regexp: '^(Listen.+)$'
+line: '# \1'
+backrefs: yes
+```
+
 
 ## Vagrant
 
