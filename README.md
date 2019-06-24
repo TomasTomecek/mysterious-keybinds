@@ -338,6 +338,21 @@ line: '# \1'
 backrefs: yes
 ```
 
+Basic usage of block (not group):
+```
+block:
+- name: install httpd and memcached
+  yum: {}
+- name: apply the foo config template
+  template:
+    src: templates/src.j2
+    dest: /etc/foo.conf
+when: ansible_facts['distribution'] == 'CentOS'
+become: true
+become_user: root
+ignore_errors: yes
+```
+
 
 ## Vagrant
 
