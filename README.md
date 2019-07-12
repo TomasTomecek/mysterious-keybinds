@@ -362,7 +362,7 @@ simple Vagrantfile:
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "fedora/29-cloud-base"
+  config.vm.box = "fedora/30-cloud-base"
 
   config.vm.provider "libvirt" do |vb|
     # Customize the amount of memory on the VM:
@@ -373,5 +373,9 @@ Vagrant.configure("2") do |config|
     a.playbook = "playbook.yaml"
     a.raw_arguments = ["-e", "ansible_python_interpreter=/usr/bin/python3", "--become"]
   end
+
+  config.vm.provision "shell", inline: <<-S
+  sudo dnf install -y podman
+  S
 end
 ```
