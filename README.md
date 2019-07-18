@@ -279,6 +279,8 @@ $ dbus-send --session           \
 
  * python source file encoding: `# -*- coding: utf-8 -*-`
 
+ * strftime timestamp: `"%Y%m%d-%H%M%S%f"`
+
 
 # CGroups
 
