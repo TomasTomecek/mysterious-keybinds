@@ -381,3 +381,10 @@ Vagrant.configure("2") do |config|
   S
 end
 ```
+
+
+# Keyboard
+
+You can type any unicode symbol using `ctrl + shift + u`:
+ * € - `20ac`
+
