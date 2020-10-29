@@ -81,6 +81,13 @@
  * `useradd [-u 1000] lojza`
  * `usermod -a -G mock`
 
+## GRUB 2
+
+* Always use the latest version of grub2 tools
+* Do NOT create grub2.cfg with old grub2-mkconfig for a new grub2
+* If possible, chroot to the system installed on a disk and use that grub2-{install,mkconfig}
+* If possible, do NOT use grub2\* from a live usbstick
+
 
 # pentadactyl
 
