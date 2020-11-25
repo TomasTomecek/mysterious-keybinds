@@ -15,6 +15,7 @@
    ```
    $ git push REMOTE HEAD:name-of-the-branch-in-fork
    ```
+ * debug ssh connection when using git: `GIT_SSH_COMMAND="ssh -v" git fetch origin`
 
 ## vim
 
