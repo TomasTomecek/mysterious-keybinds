@@ -397,3 +397,7 @@ end
 You can type any unicode symbol using `ctrl + shift + u`:
  * € - `20ac`
 
+
+# Desktop
+
+QT apps can be scaled nicely (fonts): `export QT_SCALE_FACTOR=1.5`
