@@ -229,7 +229,7 @@ $ dbus-send --session           \
 ```
 
 
-# shell
+# shell or bash
 
  * `-eq` for integers
  * `==` for strings
@@ -239,6 +239,7 @@ $ dbus-send --session           \
   ```
   $ podman run --rm -d --name cont fedora:29 bash -c 'while true; do date; sleep 1; done'
   ```
+ * iterate over files `for fi in *.patch; do echo -n $fi; cat $fi | git patch-id; done`
 
 
 # python
