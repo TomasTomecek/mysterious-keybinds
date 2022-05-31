@@ -37,6 +37,7 @@
   * https://stackoverflow.com/a/220543/909579
  * `K` — man page for that word
  * `C-k ->` — paste →
+ * `z=` — suggest a replacement for a spelling mistake
 
 
 ### fugitive
