@@ -18,6 +18,14 @@
    $ git push REMOTE HEAD:name-of-the-branch-in-fork
    ```
  * debug ssh connection when using git: `GIT_SSH_COMMAND="ssh -v" git fetch origin`
+ * git clone with specific key:
+   ```
+   Host gitserv
+       Hostname remote.server.com
+       IdentityFile ~/.ssh/id_rsa.github
+       IdentitiesOnly yes
+       AddKeysToAgent yes
+   ```
 
 ## vim
 
