@@ -48,6 +48,7 @@
  * `K` — man page for that word
  * `C-k ->` — paste →
  * `z=` — suggest a replacement for a spelling mistake
+ * `:set mouse-=a` - disable mouse
 
 
 ### fugitive
