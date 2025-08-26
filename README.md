@@ -420,3 +420,11 @@ QT apps can be scaled nicely (fonts): `export QT_SCALE_FACTOR=1.5`
 ```
 /msg chanserv modauto #channel $nick op
 ```
+
+
+# Prompts
+
+## Writing
+```
+brief, direct, succinct, professional, easy to read
+```
